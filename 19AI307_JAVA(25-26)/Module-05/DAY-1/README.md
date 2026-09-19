@@ -20,3 +20,36 @@ To operationalize a Java workflow that captures user input at runtime and pipeli
 Program to implement a InputStreamReader using Java
 Developed by: KKERTHIKA A
 RegisterNumber: 212224220048
+```
+## SOURCE CODE:
+
+```
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+import java.io.*;
+
+public class WriteFileUsingFileWriter {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        try{
+            BufferedWriter writer = new BufferedWriter(new FileWriter(scan.nextLine()));
+            writer.write(scan.nextLine());
+            writer.close();
+            System.out.println("File written successfully.");
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        
+    }
+}
+```
+
+## OUTPUT:
+
+<img width="595" height="254" alt="image" src="https://github.com/user-attachments/assets/cdbb4e18-0431-4bd1-8b2a-2429c82e7005" />
+
+## RESULT:
+
+Thus the output is executed successfully.
