@@ -65,4 +65,3 @@ class prog {
 
 Thus the output is executed successfully.
 
-## RESULT:
