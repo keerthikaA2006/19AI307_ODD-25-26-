@@ -15,14 +15,24 @@ Write a Java program to serialize a collection of objects (like ArrayList<Studen
 6.	Deserialize the list back into memory using ObjectInputStream.
 7.	Display retrieved objects and terminate the program.
 8.	Stop the program.
-## PROGRAM:
-    }
 
-    @Override
-    public String toString() {
-        return "Student{id=" + id + ", name='" + name + "', marks=" + marks + "}";
-    }
-}
+
+## PROGRAM:
+ ```
+/*
+Program to implement a Serialization and Deserialization using Java
+Developed by: KEERTHIKA A
+RegisterNumber: 212224220048
+*/
+```
+
+## SOURCE CODE:
+
+```
+import java.io.*;
+import java.util.*;
+
+// Student class must implement Serializable
 
 public class StudentSerializationUserInput {
 
